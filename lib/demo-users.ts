@@ -1,0 +1,133 @@
+export type DemoUser = {
+  id: number;
+  name: string;
+  email: string;
+  role: string;
+  status: "Active" | "Pending" | "Suspended";
+  team: string;
+  city: string;
+  joinedAt: string;
+};
+
+export const demoUsers: DemoUser[] = [
+  {
+    id: 1,
+    name: "Alicia Hartono",
+    email: "alicia@example.com",
+    role: "Frontend Engineer",
+    status: "Active",
+    team: "Platform",
+    city: "Jakarta",
+    joinedAt: "2024-01-12",
+  },
+  {
+    id: 2,
+    name: "Bagas Pramana",
+    email: "bagas@example.com",
+    role: "Backend Engineer",
+    status: "Pending",
+    team: "Core API",
+    city: "Bandung",
+    joinedAt: "2024-02-18",
+  },
+  {
+    id: 3,
+    name: "Cindy Wibowo",
+    email: "cindy@example.com",
+    role: "Product Designer",
+    status: "Active",
+    team: "Experience",
+    city: "Surabaya",
+    joinedAt: "2023-11-05",
+  },
+  {
+    id: 4,
+    name: "Dimas Saputra",
+    email: "dimas@example.com",
+    role: "QA Engineer",
+    status: "Suspended",
+    team: "Quality",
+    city: "Medan",
+    joinedAt: "2023-08-27",
+  },
+  {
+    id: 5,
+    name: "Evelyn Kusuma",
+    email: "evelyn@example.com",
+    role: "Data Analyst",
+    status: "Active",
+    team: "Analytics",
+    city: "Jakarta",
+    joinedAt: "2024-03-01",
+  },
+  {
+    id: 6,
+    name: "Farhan Ridho",
+    email: "farhan@example.com",
+    role: "DevOps Engineer",
+    status: "Pending",
+    team: "Infrastructure",
+    city: "Yogyakarta",
+    joinedAt: "2024-03-14",
+  },
+  {
+    id: 7,
+    name: "Gita Maharani",
+    email: "gita@example.com",
+    role: "Project Manager",
+    status: "Active",
+    team: "Delivery",
+    city: "Semarang",
+    joinedAt: "2023-10-09",
+  },
+  {
+    id: 8,
+    name: "Hendra Wijaya",
+    email: "hendra@example.com",
+    role: "Mobile Engineer",
+    status: "Active",
+    team: "Mobile",
+    city: "Makassar",
+    joinedAt: "2023-09-22",
+  },
+  {
+    id: 9,
+    name: "Intan Sari",
+    email: "intan@example.com",
+    role: "Frontend Engineer",
+    status: "Pending",
+    team: "Growth",
+    city: "Jakarta",
+    joinedAt: "2024-01-29",
+  },
+  {
+    id: 10,
+    name: "Johan Arif",
+    email: "johan@example.com",
+    role: "Security Engineer",
+    status: "Active",
+    team: "Security",
+    city: "Bandung",
+    joinedAt: "2023-07-13",
+  },
+  {
+    id: 11,
+    name: "Kirana Putri",
+    email: "kirana@example.com",
+    role: "UI Designer",
+    status: "Suspended",
+    team: "Experience",
+    city: "Denpasar",
+    joinedAt: "2023-06-17",
+  },
+  {
+    id: 12,
+    name: "Lutfi Hakim",
+    email: "lutfi@example.com",
+    role: "Backend Engineer",
+    status: "Active",
+    team: "Payments",
+    city: "Jakarta",
+    joinedAt: "2024-02-03",
+  },
+];
