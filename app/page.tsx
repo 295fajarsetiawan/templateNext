@@ -1,5 +1,7 @@
+import { DemoAdminDashboard } from "@/components/demo/demo-admin-dashboard";
 import { DemoForm } from "@/components/demo/demo-form";
 import { DemoTable } from "@/components/demo/demo-table";
+import { DemoUmroh } from "@/components/demo/demo-umroh";
 import { DemoUi } from "@/components/demo/demo-ui";
 import { SonnerProvider } from "@/components/ui";
 
@@ -22,6 +24,8 @@ export default function Home() {
           </section>
 
           <DemoUi />
+          <DemoUmroh />
+          <DemoAdminDashboard />
           <DemoForm />
           <DemoTable />
         </div>

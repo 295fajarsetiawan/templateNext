@@ -30,3 +30,18 @@ export type {
   PromoCarouselCard,
   PromoCarouselTab,
 } from "@/components/ui/travel/travel-cards";
+export {
+  UmrohBookingSteps,
+  UmrohCtaBanner,
+  UmrohDetailHero,
+  UmrohFaqSection,
+  UmrohFeaturesGrid,
+  UmrohHero,
+  UmrohInclusionList,
+  UmrohItineraryTimeline,
+  UmrohPackageCard,
+  UmrohPaymentMethods,
+  UmrohPaymentSummary,
+  UmrohSearchPanel,
+  UmrohTestimonialCard,
+} from "@/components/ui/umroh/umroh-components";
