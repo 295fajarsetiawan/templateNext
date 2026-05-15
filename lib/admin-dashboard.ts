@@ -6,6 +6,12 @@ export type AdminNavItem = {
   badge?: string;
 };
 
+export type AdminNavGroup = {
+  id: string;
+  label: string;
+  items: AdminNavItem[];
+};
+
 export type AdminStat = {
   id: string;
   label: string;
@@ -42,6 +48,33 @@ export const adminNavItems: AdminNavItem[] = [
   { id: "orders", label: "Orders", icon: "orders", href: "#", badge: "34" },
   { id: "messages", label: "Messages", icon: "messages", href: "#", badge: "8" },
   { id: "settings", label: "Settings", icon: "settings", href: "#" },
+];
+
+export const adminNavGroups: AdminNavGroup[] = [
+  {
+    id: "overview",
+    label: "Utama",
+    items: [{ id: "dashboard", label: "Dashboard", icon: "dashboard", href: "#" }],
+  },
+  {
+    id: "management",
+    label: "Manajemen",
+    items: [
+      { id: "users", label: "Users", icon: "users", href: "#", badge: "1.2k" },
+      { id: "sales", label: "Sales", icon: "sales", href: "#" },
+      { id: "orders", label: "Orders", icon: "orders", href: "#", badge: "34" },
+    ],
+  },
+  {
+    id: "communication",
+    label: "Komunikasi",
+    items: [{ id: "messages", label: "Messages", icon: "messages", href: "#", badge: "8" }],
+  },
+  {
+    id: "system",
+    label: "Sistem",
+    items: [{ id: "settings", label: "Settings", icon: "settings", href: "#" }],
+  },
 ];
 
 export const adminStats: AdminStat[] = [
